@@ -1,0 +1,24 @@
+<?php
+
+/**
+ * @file
+ * Contains hello_body.module..
+ */
+
+use Drupal\Core\Routing\RouteMatchInterface;
+
+/**
+ * Implements hook_help().
+ */
+function hello_body_help($route_name, RouteMatchInterface $route_match) {
+  switch ($route_name) {
+    // Main module help for the hello_body module.
+    case 'help.page.hello_body':
+      $output = '';
+      $output .= '<h3>' . t('About') . '</h3>';
+      $output .= '<p>' . t('this module had been created for test') . '</p>';
+      return $output;
+
+    default:
+  }
+}

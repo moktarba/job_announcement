@@ -1,0 +1,20 @@
+langcode: en
+status: true
+dependencies:
+    config:
+        - field.storage.node.field_taille_de_l_entreprise
+        - node.type.entreprise
+id: node.entreprise.field_taille_de_l_entreprise
+field_name: field_taille_de_l_entreprise
+entity_type: node
+bundle: entreprise
+label: 'taille de l''entreprise'
+description: ''
+required: false
+translatable: false
+default_value: {  }
+default_value_callback: ''
+settings:
+    handler: 'default:node'
+    handler_settings: {  }
+field_type: entity_reference

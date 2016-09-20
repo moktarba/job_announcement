@@ -1,0 +1,24 @@
+<?php
+
+/**
+ * @file
+ * Contains as_candidatures.module..
+ */
+
+use Drupal\Core\Routing\RouteMatchInterface;
+
+/**
+ * Implements hook_help().
+ */
+function as_candidatures_help($route_name, RouteMatchInterface $route_match) {
+  switch ($route_name) {
+    // Main module help for the as_candidatures module.
+    case 'help.page.as_candidatures':
+      $output = '';
+      $output .= '<h3>' . t('About') . '</h3>';
+      $output .= '<p>' . t('job announcements for people') . '</p>';
+      return $output;
+
+    default:
+  }
+}

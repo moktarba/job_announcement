@@ -1,0 +1,20 @@
+langcode: en
+status: true
+dependencies:
+    config:
+        - field.storage.node.field_raison_sociale
+        - node.type.entreprise
+id: node.entreprise.field_raison_sociale
+field_name: field_raison_sociale
+entity_type: node
+bundle: entreprise
+label: 'raison sociale'
+description: ''
+required: false
+translatable: false
+default_value: {  }
+default_value_callback: ''
+settings:
+    handler: 'default:node'
+    handler_settings: {  }
+field_type: entity_reference

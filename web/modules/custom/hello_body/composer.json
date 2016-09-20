@@ -1,0 +1,14 @@
+{
+  "name": "drupal/hello_body",
+  "type": "drupal-module",
+  "description": "this module had been created for test",
+  "keywords": ["Drupal"],
+  "license": "GPL-2.0+",
+  "homepage": "https://www.drupal.org/project/hello_body",
+  "minimum-stability": "dev",
+  "support": {
+    "issues": "https://www.drupal.org/project/issues/hello_body",
+    "source": "http://cgit.drupalcode.org/hello_body"
+  },
+  "require": { }
+}

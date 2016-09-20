@@ -1,0 +1,5 @@
+name: hello connards
+description: Testing creation of module
+package: Custom
+type: module
+core: 8.x

@@ -1,0 +1,38 @@
+langcode: en
+status: true
+dependencies:
+    config:
+        - core.entity_view_mode.node.teaser
+        - field.field.node.machiniste.field_date_de_publication
+        - field.field.node.machiniste.field_debut_du_poste
+        - field.field.node.machiniste.field_details
+        - field.field.node.machiniste.field_les_plus_du_poste
+        - field.field.node.machiniste.field_localisation
+        - field.field.node.machiniste.field_niveau_minimum_exige
+        - field.field.node.machiniste.field_profil_
+        - field.field.node.machiniste.field_salaire
+        - field.field.node.machiniste.field_statut
+        - field.field.node.machiniste.field_temps_de_travail
+        - field.field.node.machiniste.field_type_de_contrat
+        - node.type.machiniste
+    module:
+        - user
+id: node.machiniste.teaser
+targetEntityType: node
+bundle: machiniste
+mode: teaser
+content:
+    links:
+        weight: 100
+hidden:
+    field_date_de_publication: true
+    field_debut_du_poste: true
+    field_details: true
+    field_les_plus_du_poste: true
+    field_localisation: true
+    field_niveau_minimum_exige: true
+    field_profil_: true
+    field_salaire: true
+    field_statut: true
+    field_temps_de_travail: true
+    field_type_de_contrat: true

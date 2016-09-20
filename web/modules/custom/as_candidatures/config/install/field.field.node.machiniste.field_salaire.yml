@@ -1,0 +1,26 @@
+langcode: en
+status: true
+dependencies:
+    config:
+        - field.storage.node.field_salaire
+        - node.type.machiniste
+id: node.machiniste.field_salaire
+field_name: field_salaire
+entity_type: node
+bundle: machiniste
+label: salaire
+description: ''
+required: false
+translatable: false
+default_value:
+    -
+        value: !!float 30
+    -
+        value: !!float 150
+default_value_callback: ''
+settings:
+    min: !!float 30
+    max: !!float 150
+    prefix: €
+    suffix: M
+field_type: decimal

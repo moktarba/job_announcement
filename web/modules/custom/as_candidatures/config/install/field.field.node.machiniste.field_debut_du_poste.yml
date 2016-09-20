@@ -1,0 +1,20 @@
+langcode: en
+status: true
+dependencies:
+    config:
+        - field.storage.node.field_debut_du_poste
+        - node.type.machiniste
+    module:
+        - datetime
+id: node.machiniste.field_debut_du_poste
+field_name: field_debut_du_poste
+entity_type: node
+bundle: machiniste
+label: 'début de poste'
+description: ''
+required: false
+translatable: false
+default_value: {  }
+default_value_callback: ''
+settings: {  }
+field_type: datetime

@@ -1,0 +1,20 @@
+langcode: en
+status: true
+dependencies:
+    config:
+        - field.storage.node.field_les_plus_du_poste
+        - node.type.machiniste
+    module:
+        - text
+id: node.machiniste.field_les_plus_du_poste
+field_name: field_les_plus_du_poste
+entity_type: node
+bundle: machiniste
+label: 'les plus du poste'
+description: ''
+required: false
+translatable: false
+default_value: {  }
+default_value_callback: ''
+settings: {  }
+field_type: text_long

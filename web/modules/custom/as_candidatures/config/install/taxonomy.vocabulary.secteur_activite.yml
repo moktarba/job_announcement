@@ -1,0 +1,8 @@
+langcode: en
+status: true
+dependencies: {  }
+name: 'secteur d''activité'
+vid: secteur_activite
+description: ''
+hierarchy: 0
+weight: 0

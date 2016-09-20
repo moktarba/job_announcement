@@ -1,0 +1,79 @@
+langcode: en
+status: true
+dependencies:
+    config:
+        - field.field.node.entreprise.body
+        - field.field.node.entreprise.field_activite
+        - field.field.node.entreprise.field_adresse
+        - field.field.node.entreprise.field_chiffre_d_affaire
+        - field.field.node.entreprise.field_nom_de_l_entreprise
+        - field.field.node.entreprise.field_raison_sociale
+        - field.field.node.entreprise.field_siret
+        - field.field.node.entreprise.field_taille_de_l_entreprise
+        - node.type.entreprise
+    module:
+        - text
+        - user
+id: node.entreprise.default
+targetEntityType: node
+bundle: entreprise
+mode: default
+content:
+    body:
+        label: hidden
+        type: text_default
+        weight: 101
+        settings: {  }
+        third_party_settings: {  }
+    field_activite:
+        weight: 108
+        label: above
+        settings: {  }
+        third_party_settings: {  }
+        type: text_default
+    field_adresse:
+        weight: 102
+        label: above
+        settings: {  }
+        third_party_settings: {  }
+        type: text_default
+    field_chiffre_d_affaire:
+        weight: 106
+        label: above
+        settings:
+            thousand_separator: ''
+            prefix_suffix: true
+        third_party_settings: {  }
+        type: number_integer
+    field_nom_de_l_entreprise:
+        weight: 105
+        label: above
+        settings:
+            link: true
+        third_party_settings: {  }
+        type: entity_reference_label
+    field_raison_sociale:
+        weight: 107
+        label: above
+        settings:
+            link: true
+        third_party_settings: {  }
+        type: entity_reference_label
+    field_siret:
+        weight: 103
+        label: above
+        settings:
+            thousand_separator: ''
+            prefix_suffix: true
+        third_party_settings: {  }
+        type: number_integer
+    field_taille_de_l_entreprise:
+        weight: 104
+        label: above
+        settings:
+            link: true
+        third_party_settings: {  }
+        type: entity_reference_label
+    links:
+        weight: 100
+hidden: {  }

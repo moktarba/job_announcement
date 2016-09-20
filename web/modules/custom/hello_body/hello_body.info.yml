@@ -1,0 +1,5 @@
+name: hello_body
+type: module
+description: this module had been created for test
+core: 8.x
+package: Custom

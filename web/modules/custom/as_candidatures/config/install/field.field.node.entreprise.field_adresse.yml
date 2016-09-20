@@ -1,0 +1,20 @@
+langcode: en
+status: true
+dependencies:
+    config:
+        - field.storage.node.field_adresse
+        - node.type.entreprise
+    module:
+        - text
+id: node.entreprise.field_adresse
+field_name: field_adresse
+entity_type: node
+bundle: entreprise
+label: adresse
+description: ''
+required: false
+translatable: false
+default_value: {  }
+default_value_callback: ''
+settings: {  }
+field_type: text

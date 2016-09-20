@@ -1,0 +1,20 @@
+langcode: en
+status: true
+dependencies:
+    config:
+        - field.storage.node.field_activite
+        - node.type.entreprise
+    module:
+        - text
+id: node.entreprise.field_activite
+field_name: field_activite
+entity_type: node
+bundle: entreprise
+label: activité
+description: ''
+required: false
+translatable: false
+default_value: {  }
+default_value_callback: ''
+settings: {  }
+field_type: text

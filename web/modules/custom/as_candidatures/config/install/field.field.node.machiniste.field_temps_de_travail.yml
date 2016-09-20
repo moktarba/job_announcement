@@ -1,0 +1,20 @@
+langcode: en
+status: true
+dependencies:
+    config:
+        - field.storage.node.field_temps_de_travail
+        - node.type.machiniste
+id: node.machiniste.field_temps_de_travail
+field_name: field_temps_de_travail
+entity_type: node
+bundle: machiniste
+label: 'temps de travail'
+description: ''
+required: false
+translatable: false
+default_value: {  }
+default_value_callback: ''
+settings:
+    handler: 'default:node'
+    handler_settings: {  }
+field_type: entity_reference
