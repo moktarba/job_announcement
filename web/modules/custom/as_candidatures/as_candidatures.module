@@ -22,3 +22,14 @@ function as_candidatures_help($route_name, RouteMatchInterface $route_match) {
     default:
   }
 }
+
+/**
+ * Implements hook_themel().
+*/
+function as_candidatures_theme($existing, $type, $theme, $path){
+  return [
+    'annonces_list' => [
+      'render element' => "elements"
+    ]
+  ];
+}

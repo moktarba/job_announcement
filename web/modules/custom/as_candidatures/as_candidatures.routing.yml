@@ -1,0 +1,28 @@
+
+as_candidatures.default_controller_listing:
+  path: '/candidatures/listing'
+  defaults:
+    _controller: '\Drupal\as_candidatures\Controller\DefaultController::listing'
+    _title: 'Candidatures Listing'
+  requirements:
+    _permission: 'access content'
+
+as_candidatures.annonces_form:
+  path: '/admin/config/as_candidatures/annonces'
+  defaults:
+    _form: '\Drupal\as_candidatures\Form\AnnoncesForm'
+    _title: 'AnnoncesForm'
+  requirements:
+    _permission: 'access administration pages'
+  options:
+    _admin_route: TRUE
+
+
+as_candidatures.announces_form:
+  path: '/as_candidatures/form/announces'
+  defaults:
+    _form: '\Drupal\as_candidatures\Form\AnnouncesForm'
+    _title: 'AnnouncesForm'
+  requirements:
+    _access: 'TRUE'
+  

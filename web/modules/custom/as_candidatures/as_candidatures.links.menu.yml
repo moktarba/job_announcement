@@ -1,0 +1,7 @@
+as_candidatures.annonces_form:
+  title: 'AnnoncesForm'
+  route_name: as_candidatures.annonces_form
+  description: 'Création d'annonces'
+  parent: system.admin_config_system
+  weight: 99
+
