@@ -25,4 +25,15 @@ as_candidatures.announces_form:
     _title: 'AnnouncesForm'
   requirements:
     _access: 'TRUE'
-  
+
+
+as_candidatures.postuler_form:
+  path: '/as_candidatures/form/postuler'
+  defaults:
+    _form: '\Drupal\as_candidatures\Form\PostulerForm'
+    _title: 'PostulerForm'
+  requirements:
+    _permission: 'access administration pages'
+  options:
+    _admin_route: TRUE
+    _access: 'TRUE'

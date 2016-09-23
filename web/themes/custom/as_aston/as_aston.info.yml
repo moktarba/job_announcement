@@ -1,6 +1,6 @@
 name: Aston
 type: theme
-description: Le ttheme par défaut
+description: Le theme par défaut
 package: Aston
 core: 8.x
 libraries:
